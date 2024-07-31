@@ -12,11 +12,17 @@
 }
 
 /* nav style */
-
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    
+}
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 .nav-title{
     font-weight: 800;
@@ -26,9 +32,21 @@ nav{
 .text-color{
     color: #FD6E0A;
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
+
+
+
+
 nav ul{
     display: flex;
-    
+    align-items: center;
 }
 nav ul li{
     list-style: none;
@@ -38,4 +56,31 @@ nav ul li{
 nav li a{
     text-decoration: none;
     font-size: 20px;
+}
+
+.mary-pic{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    
+}
+.baner-content{
+    max-width: 585px;
+}
+.h4{
+    font-size: 45px;
+    font-weight: 600;
+}
+.h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+}
+.p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.img{
+    width: 580px;
+    height: 670px;
 }
